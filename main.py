@@ -1,7 +1,7 @@
 # import random
-
-
-
+#
+#
+#
 # start = int(input("Enter the start for the interval: "))
 # stop =  int(input("Enter the stop fot the interval: "))
 # if start < stop:
@@ -28,5 +28,6 @@ lst = [2, 4, 5, 7, 8]
 for i in range(len(lst)):
     for item in range(len(lst)):
         if i > item:
-                print("max is:", lst[i])
+                result = lst[i]
+print(result)
 
